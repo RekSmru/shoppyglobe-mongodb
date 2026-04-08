@@ -2,8 +2,8 @@
 
 ## Project Overview
 This is the backend for the **ShoppyGlobe E-commerce application**, built with **Node.js**, **Express.js**, and **MongoDB**.  
-It supports:
 
+It supports:
 - User registration & login (JWT authentication)
 - Product listing
 - Shopping cart (add/update/delete items)
@@ -190,5 +190,5 @@ Cart Collection
 ![Carts Collection](./screenshots/carts.png)
 
 Users Collection
-![Users Collection](./screenshots/userss.png)
+![Users Collection](./screenshots/users.png)
 
