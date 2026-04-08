@@ -76,10 +76,9 @@ JWT_SECRET=your_jwt_secret
 
 ```bash
 npx nodemon server.js
-
-Server running on port 5000
-   http://localhost:5000
 ```
+Server running on port 5000
+- http://localhost:5000
 
 ## API Testing (Thunder Client)
 
@@ -182,14 +181,14 @@ Header: Authorization: Bearer <token>
 DELETE http://localhost:5000/cart/<productId>
 ```
 
-MongoDB Collections Screenshots
+## MongoDB Collections Screenshots
 
 Products Collection
 ![Products Collection](./screenshots/products.png)
 
 Cart Collection
-![Carts Collection]("./screenshots/carts.png")
+![Carts Collection](./screenshots/carts.png)
 
 Users Collection
-![Users Collection]("./screenshots/userss.png")
+![Users Collection](./screenshots/userss.png)
 
