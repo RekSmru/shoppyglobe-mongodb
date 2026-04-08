@@ -9,7 +9,6 @@ It supports:
 - Shopping cart (add/update/delete items)
 - API error handling and validation
 
----
 
 ## Technologies Used
 
@@ -20,10 +19,10 @@ It supports:
 - bcryptjs for password hashing
 - Thunder Client (for API testing)
 
----
 
 ## Project Structure
 
+```bash
 shoppyglobe-backend/
 │
 ├── server.js
@@ -46,35 +45,42 @@ shoppyglobe-backend/
 │   ├── users.png
 │   └── cart.png
 └── README.md         <-- documentation
-
-
 ---
 
 ## Setup Instructions
 
 1. **Clone the repository**
+
 ```bash
 git clone https://github.com/RekSmru/shoppyglobe-mongodb.git
 
-cd shoppyglobe-mongodb
+```
 
----
+```bash
+cd shoppyglobe-mongodb
+```
+
+## Install dependencies
+
+```bash
 npm init -y
 npm install express mongoose body-parser
 npm install nodemon --save-dev
 npx nodemon server.js
+```
+## Setup environment variables
 
----
-
+```bash
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/shoppyglobe
 JWT_SECRET=your_jwt_secret
+```
 
 ### Start the server
 
----
-npm run dev
----
+```bash
+npx nodemon server.js
+```
 
 Server runs at http://localhost:5000
 
@@ -82,9 +88,11 @@ Server runs at http://localhost:5000
 MongoDB Collections Screenshots
 
 Products Collection
-![Alt Products]("././screenshots/products.png")
-Users Collection
+![Products Collection]("./screenshots/products.png")
 
 Cart Collection
-![Alt Text](relative-path-to-image)
+![Carts Collection]("./screenshots/carts.png")
+
+Users Collection
+![Users Collection]("./screenshots/userss.png")
 
