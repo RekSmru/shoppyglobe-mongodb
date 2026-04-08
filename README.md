@@ -45,7 +45,7 @@ shoppyglobe-backend/
 │   ├── users.png
 │   └── cart.png
 └── README.md         <-- documentation
----
+```
 
 ## Setup Instructions
 
@@ -81,8 +81,42 @@ JWT_SECRET=your_jwt_secret
 ```bash
 npx nodemon server.js
 ```
-
+```bash
 Server runs at http://localhost:5000
+```
+
+## API Testing (Thunder Client)
+
+You can test all APIs using **Thunder Client** in VS Code. Follow these steps:
+
+
+### **1️⃣ Register a New User**
+
+1. Open Thunder Client → click **New Request**  
+2. Select **POST** method  
+3. URL: `http://localhost:5000/register`  
+4. Go to **Body → JSON** and add:
+
+```bash
+```json
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "123456"
+}
+```
+
+### Login User
+- Open Thunder Client → New Request → POST
+- URL: http://localhost:5000/login
+- Body → JSON:
+
+```bash
+{
+  "email": "john@example.com",
+  "password": "123456"
+}
+```
 
 
 MongoDB Collections Screenshots
